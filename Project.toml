@@ -1,7 +1,14 @@
 name = "fit-bifurcation"
 authors = ["Jan Swierczek-Jereczek"]
-[compat]
-julia = "1.10.5"
-DrWatson = "2.15.0"
+
 [deps]
+BSplineKit = "093aae92-e908-43d7-9660-e50ee39d5a0a"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+[compat]
+DrWatson = "2.15.0"
+julia = "1.10.5"
